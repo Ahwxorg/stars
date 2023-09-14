@@ -27,10 +27,10 @@ jobs:
       # Commit the changes
       - name: Commit files
         run: |
-          git config --local user.email "ahwx@ahwx.org"
-          git config --local user.name "Ahwxorg"
+          git config --local user.email "actions@noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
-          git commit -m "Update list"
+          git commit -m "chore(readme.md): update list"
 
       # Push the changes
       - name: Push
