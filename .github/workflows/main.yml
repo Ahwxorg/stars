@@ -28,7 +28,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.email "ahwx@ahwx.org"
-          git config --local user.name "Ahwx"
+          git config --local user.name "Ahwxorg"
           git add .
           git commit -m "Update list"
 
